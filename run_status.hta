@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>Emission Summary Status</title>
+    <HTA:APPLICATION APPLICATIONNAME="EmissionSummaryStatus" BORDER="thin" CAPTION="yes" SHOWINTASKBAR="yes" SINGLEINSTANCE="yes" SYSMENU="yes" WINDOWSTATE="normal">
+    <meta http-equiv="x-ua-compatible" content="IE=9" />
+    <script language="javascript">
+        var statusPath = "C:\\Users\\HO3\\VS_GTDM\\Proj_Emission_Summary\\run_status_fragment.html";
+        var lastMarkup = "";
+
+        function readStatus() {
+            var fso = new ActiveXObject("Scripting.FileSystemObject");
+            if (!fso.FileExists(statusPath)) return null;
+            var file = fso.OpenTextFile(statusPath, 1, false, -1);
+            var text = file.ReadAll();
+            file.Close();
+            if (!text) return null;
+            return text;
+        }
+
+        function render() {
+            try {
+                var markup = readStatus();
+                if (!markup) return;
+                if (markup !== lastMarkup) {
+                    document.getElementById('app').innerHTML = markup;
+                    lastMarkup = markup;
+                }
+            } catch (error) {}
+        }
+
+        function init() {
+            try {
+                window.resizeTo(560, 920);
+                window.moveTo(-995, -1033);
+            } catch (error) {}
+            render();
+            window.setInterval(render, 1500);
+        }
+    </script>
+    <style>
+        body { font-family: Segoe UI, Arial, sans-serif; margin: 10px; background: #f4f7fb; color: #1f2933; }
+        .card { background: #ffffff; border: 1px solid #d9e2ec; border-radius: 12px; padding: 14px; }
+        .state { display: inline-block; padding: 5px 10px; border-radius: 999px; font-size: 13px; font-weight: 700; background: #d9ecff; color: #0b5cab; }
+        .state.completed { background: #e7f8ee; color: #1f7a3d; }
+        .state.failed { background: #ffe3e3; color: #b42318; }
+        h1 { margin: 10px 0 6px; font-size: 24px; }
+        .detail { font-size: 13px; line-height: 1.4; margin-top: 8px; }
+        .meta { margin-top: 8px; font-size: 11px; color: #52606d; word-break: break-all; }
+        .process-title { margin-top: 12px; font-size: 12px; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; color: #486581; }
+        .process-table { width: 100%; margin-top: 8px; border-collapse: separate; border-spacing: 6px; table-layout: fixed; }
+        .step-cell { width: 50%; vertical-align: top; }
+        .step { min-height: 46px; padding: 8px 10px; border-radius: 8px; background: #eef2f6; color: #52606d; border: 1px solid transparent; overflow: hidden; }
+        .step-index { float: left; width: 24px; height: 24px; line-height: 24px; border-radius: 999px; text-align: center; font-size: 11px; font-weight: 700; background: rgba(31, 41, 51, 0.08); margin-right: 8px; }
+        .step-label { display: block; overflow: hidden; font-size: 12px; font-weight: 600; line-height: 1.25; padding-top: 3px; }
+        .step.current { background: #d9ecff; color: #0b5cab; border-color: #7cc0ff; }
+        .step.current .step-index { background: #0b5cab; color: #ffffff; }
+        .step.completed { background: #e7f8ee; color: #1f7a3d; border-color: #9fe0b1; }
+        .step.completed .step-index { background: #1f7a3d; color: #ffffff; }
+        .step.failed { background: #ffe3e3; color: #b42318; border-color: #ffb3b3; }
+        .step.failed .step-index { background: #b42318; color: #ffffff; }
+        .prompt-field input, .prompt-field select { width: 100%; box-sizing: border-box; margin-top: 4px; padding: 8px 10px; border: 1px solid #bcccdc; border-radius: 8px; font-size: 13px; color: #102a43; background: #ffffff; }
+        .prompt-field input[readonly] { background: #eef2f6; color: #52606d; }
+        .logs { margin-top: 12px; padding: 10px 12px; background: #f8fafc; border-radius: 10px; font-size: 11px; line-height: 1.4; color: #243b53; max-height: 128px; overflow: auto; }
+        .logs-title { font-size: 11px; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; color: #486581; margin-bottom: 6px; }
+    </style>
+</head>
+<body onload="init()">
+    <div id="app"></div>
+</body>
+</html>

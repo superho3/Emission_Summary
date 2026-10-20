@@ -1,0 +1,5 @@
+﻿token=33296_20260821_090809_300648
+PID=14872 NAME=python.exe
+CMD="C:\Users\HO3\VS_GTDM\Proj_Emission_Summary\.venv\Scripts\python.exe" .\EM_SUM.py --headless --timeout 1 
+PID=33296 NAME=python.exe
+CMD="C:\Users\HO3\VS_GTDM\Proj_Emission_Summary\.venv\Scripts\python.exe" .\EM_SUM.py --headless --timeout 1 

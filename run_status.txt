@@ -1,0 +1,1 @@
+[2026-10-13 16:18:33] COMPLETED | Run Complete | Completed run and opened 20261013_Emission_Summary.xlsx. The Emissions Utilities browser and status window remain open until the next run resets them.

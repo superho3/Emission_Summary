@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="1">
+    <title>Emission Summary Status</title>
+    <script>
+        window.onload = function () {
+            try {
+                window.resizeTo(560, 920);
+                window.moveTo(-995, -1033);
+            } catch (error) {}
+        };
+    </script>
+    <style>
+        :root { color-scheme: light; }
+        body { font-family: Segoe UI, Arial, sans-serif; margin: 10px; background: linear-gradient(180deg, #edf2f7 0%, #f8fbfd 100%); color: #1f2933; }
+        .card { max-width: 1020px; background: #ffffff; border-radius: 14px; padding: 14px 16px; box-shadow: 0 10px 28px rgba(31, 41, 51, 0.10); }
+        .state { display: inline-block; padding: 5px 10px; border-radius: 999px; font-size: 13px; font-weight: 700; background: #d9ecff; color: #0b5cab; }
+        h1 { margin: 10px 0 6px; font-size: 28px; }
+        .detail { font-size: 14px; line-height: 1.45; margin-top: 8px; }
+        .meta { margin-top: 10px; font-size: 12px; color: #52606d; }
+        .process-title { margin-top: 12px; font-size: 12px; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; color: #486581; }
+        .process-table { width: 100%; margin-top: 8px; border-collapse: separate; border-spacing: 6px 6px; table-layout: fixed; }
+        .step-cell { width: 50%; vertical-align: top; }
+        .step { min-height: 36px; padding: 6px 9px; border-radius: 8px; background: #eef2f6; color: #52606d; border: 1px solid transparent; overflow: hidden; }
+        .step-index { float: left; width: 24px; height: 24px; border-radius: 999px; display: inline-block; text-align: center; line-height: 24px; font-size: 11px; font-weight: 700; background: rgba(31, 41, 51, 0.08); margin-right: 8px; }
+        .step-label { display: block; overflow: hidden; font-size: 12px; font-weight: 600; line-height: 1.2; padding-top: 2px; }
+        .step.current { background: #d9ecff; color: #0b5cab; border-color: #7cc0ff; }
+        .step.current .step-index { background: #0b5cab; color: #ffffff; }
+        .step.completed { background: #e7f8ee; color: #1f7a3d; border-color: #9fe0b1; }
+        .step.completed .step-index { background: #1f7a3d; color: #ffffff; }
+        .step.failed { background: #ffe3e3; color: #b42318; border-color: #ffb3b3; }
+        .step.failed .step-index { background: #b42318; color: #ffffff; }
+        .logs { margin-top: 12px; padding: 10px 12px; background: #f8fafc; border-radius: 10px; font-size: 11px; line-height: 1.4; color: #243b53; max-height: 132px; overflow: auto; white-space: normal; }
+        .logs-title { font-size: 11px; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase; color: #486581; margin-bottom: 6px; }
+        code { font-family: Consolas, monospace; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="state completed">COMPLETED</div>
+        <h1>Run Complete</h1>
+        <div class="detail">Completed run and opened 20261013_Emission_Summary.xlsx. The Emissions Utilities browser and status window remain open until the next run resets them.</div>
+        
+        <div class="process-title">Process</div>
+        <table class="process-table"><tbody><tr><td class="step-cell"><div class="step completed"><span class="step-index">1</span><span class="step-label">Start And Settings</span></div></td><td class="step-cell"><div class="step completed"><span class="step-index">2</span><span class="step-label">Browser Startup</span></div></td></tr><tr><td class="step-cell"><div class="step completed"><span class="step-index">3</span><span class="step-label">Access And Sign-In</span></div></td><td class="step-cell"><div class="step completed"><span class="step-index">4</span><span class="step-label">Query Setup</span></div></td></tr><tr><td class="step-cell"><div class="step completed"><span class="step-index">5</span><span class="step-label">Spreadsheet Download</span></div></td><td class="step-cell"><div class="step completed"><span class="step-index">6</span><span class="step-label">ATI And Monitor Downloads</span></div></td></tr><tr><td class="step-cell"><div class="step completed"><span class="step-index">7</span><span class="step-label">Compare And Choose</span></div></td><td class="step-cell"><div class="step completed"><span class="step-index">8</span><span class="step-label">Workbook Ready</span></div></td></tr><tr><td class="step-cell"><div class="step completed"><span class="step-index">9</span><span class="step-label">Spreadsheet Import</span></div></td><td class="step-cell"><div class="step completed"><span class="step-index">10</span><span class="step-label">PDF Download</span></div></td></tr><tr><td class="step-cell"><div class="step completed"><span class="step-index">11</span><span class="step-label">Workbook And Charts</span></div></td><td class="step-cell"><div class="step completed"><span class="step-index">12</span><span class="step-label">Monitor Update</span></div></td></tr><tr><td class="step-cell"><div class="step completed"><span class="step-index">13</span><span class="step-label">Finish And Open Excel</span></div></td><td class="step-cell"></td></tr></tbody></table>
+        <div class="meta">Updated: 2026-10-13 16:18:33</div>
+        <div class="meta">Log file: <code>C:\Users\HO3\VS_GTDM\Proj_Emission_Summary\last_run.log</code></div>
+        <div class="logs">
+            <div class="logs-title">Recent Log</div>
+            <div>[2026-10-13 16:18:32] Requested workbook open via Excel executable: C:\Users\HO3\VS_GTDM\Proj_Emission_Summary\Emission_Summary_Result\20261013_Emission_Summary.xlsx<br>[2026-10-13 16:18:32] Stopped Selenium driver service and left automation browser open.<br>[2026-10-13 16:18:30] Tracking automation browser process: PID 39424<br>[2026-10-13 16:18:28] Preserving automation browser window for post-run review.<br>[2026-10-13 16:18:28] Restored browser to the Reprint Report results page at the bottom controls.<br>[2026-10-13 16:18:15] Added or refreshed 530 ATI MF4 hyperlink(s) across workbook sheets.<br>[2026-10-13 16:18:10] ATI Files in GTDM matched 37 numbered MF4 file(s) across 628 TESTID(s): 8050380_8050380_20261005_162304_590W960_Baseline_001.mf4, 8050380_8050380_20261005_170236_590W960_Baseline_002.mf4, 8050381_8050381_20261005_204211_590W960_Baseline_001.mf4, 8050387_8050387_20261006_115852_590W960_Baseline_001.mf4, 8050388_8050388_20261006_124024_590W960_Baseline_001.mf4, 8050392_8050392_20261006_153623_590W960_Baseline_THRES_BrickID2026-036_001.mf4, 8050393_8050393_20261006_160106_590W960_Baseline_THRES_BrickID2026-036_001.mf4, 8050394_8050394_20261006_170628_590W960_Baseline_THRES_BrickID2026-036_001.mf4, 8050394_8050394_20261006_174716_590W960_Baseline_THRES_BrickID2026-036_002.mf4, 8050397_8050397_20261006_193916_590W960_Baseline_THRES_BrickID2026-036_001.mf4, ...<br>[2026-10-13 16:07:25] Added or refreshed 473 ATI MF4 hyperlink(s) across workbook sheets.<br>[2026-10-13 16:06:50] Added or refreshed 473 ATI MF4 hyperlink(s) across workbook sheets.<br>[2026-10-13 16:06:37] Skipped PDF enrichment for QueryResults row 512 (8050277.pdf): ValueError: Could not find line starting with &#x27;|T. mg+&#x27;.<br>[2026-10-13 16:06:28] Skipped PDF with fewer than 14 pages: 8049843.pdf<br>[2026-10-13 16:06:28] Skipped PDF with fewer than 14 pages: 8049718.pdf</div>
+        </div>
+    </div>
+
+</body>
+</html>

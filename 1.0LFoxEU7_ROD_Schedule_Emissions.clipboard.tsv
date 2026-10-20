@@ -1,0 +1,219 @@
+																					
+		Monday				Tuesday				Wednesday				Thursday				Friday			
+		7/13/2026				7/14/2026				7/15/2026				7/16/2026				7/17/2026			
+		Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor
+										WF7X79	8878139	WLTC_CLASS_3B	W960_WLTC_Baseline	WF7XNN	8797986	WLTC_CLASS_3B	W960_WLTC_Baseline	WF7XUT	8798006	WLTC_CLASS_3B	W960_WLTC_Baseline
+										WF7X7F	8878149	WLTC_CLASS_3B	W960_WLTC_Baseline								
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+		7/20/2026				7/21/2026				7/22/2026				7/23/2026				7/24/2026			
+		Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor
+						WF7Z4Z		WLTC_CLASS_3B	W960_WLTC_Baseline	WF7ZNU	8049527	WLTC_CLASS_3B	W960_WLTC_Baseline	WF80HW	8049536	WLTC_CLASS_3B	W960_WLTC_Baseline	WF813L	8049546	WLTC_CLASS_3B	W960_WLTC_Baseline
+						WF7Z51		VFORCE_COOL_DOWN	W960 FC	WF7ZNW	8049528	VFORCE_COOL_DOWN	W960 FC	WF80J0		VFORCE_COOL_DOWN	W960 FCD	WF814B		VFORCE_COOL_DOWN	W960 FCD
+						WF7Z53		ROBOT_ATI_KEYCYCLE	W960 key cycle	WF7ZNZ	8049529	ROBOT_ATI_KEYCYCLE	W960 key cycle	WF8116	8049537	ROBOT_ATI_KEYCYCLE	W960 KAM Load & OBD RESET	WF814D		ROBOT_ATI_KEYCYCLE	W960 key cycle
+						WF7Z54		WLTC_CLASS_3B	W960 WLTC_Baseline	WF7ZP2	8049531	WLTC_CLASS_3B	W960_WLTC_Baseline	WF80J7	8049539	WLTC_CLASS_3B	W960_WLTC_Baseline	WF814F	8049549	WLTC_CLASS_3B	W960_WLTC_Baseline
+						WF7Z55		VFORCE_COOL_DOWN	W960 FC	WF7ZP4		VFORCE_COOL_DOWN	W960 FC	WF8118		VFORCE_COOL_DOWN	W960 FCD	WF814P		VFORCE_COOL_DOWN	W960 FCD
+						WF7Z57		ROBOT_ATI_KEYCYCLE	W960 key cycle	WF7ZP6		ROBOT_ATI_KEYCYCLE	W960 key cycle	WF80JD		ROBOT_ATI_KEYCYCLE	W960 key cycle	WF814U		ROBOT_ATI_KEYCYCLE	W960 key cycle
+						WF7Z58	8049524	WLTC_CLASS_3B	W960_WLTC_Baseline	WF7ZPA	8049532	WLTC_CLASS_3B	W960_WLTC_Baseline	WF80JH	8049542	WLTC_CLASS_3B	W960_WLTC_Baseline	WF814Z	8049551	WLTC_CLASS_3B	W960_WLTC_Baseline
+														WF80JP		VFORCE_COOL_DOWN	W960 FCD	WF8151		VFORCE_COOL_DOWN	W960 FCD
+														WF80K0		ROBOT_ATI_KEYCYCLE	W960 key cycle	WF8153		ROBOT_ATI_KEYCYCLE	W960 key cycle
+														WF80JV				WF8155	8049553	WLTC_CLASS_3B	W960_WLTC_Baseline
+																					
+																					
+																					
+																					
+																					
+		7/27/2026				7/28/2026				7/29/2026				7/30/2026				7/31/2026			
+		Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor
+		WF81U4	8049556	WLTC_CLASS_3B	W960_WLTC_Baseline	WF82FF	8049567	WLTC_CLASS_3B	W960_WLTC_Baseline	WF836A	8049579	WLTC_CLASS_3B	W960 Demo Baseline	WF83TH	8049592	WLTC_CLASS_3B	W960 Demo - FAOS L5%, didn’t set the code but emissions was low	WF84FN	8049619	WLTC_CLASS_3B	W960 Demo - Baseline, previous test was not valid so just ran baseline for it.
+		WF81U9		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF82FJ		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF836G		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF83TL		ROBOT_ATI_KEYCYCLE	W960 KAM Load	WF84FQ		ROBOT_ATI_KEYCYCLE	W960 KAM load
+		WF81UJ	8049560	WLTC_3BX2	W960 Prep	WF82FL	8049569	WLTC_3BX2	W960 Prep AFIMN_R30_Cyl1 - No failed windows detected	WF836U	8049581	WLTC_3BX2	W960 Prep FAOS R9% - set P2270 but FAOS learning didn’t get to clip	WF83TX	8049593	WLTC_3BX2	W960 Prep - FAOS R9%, set 1st pending on second WLTC	WF84FU	8049621	WLTC_3BX2	W960 Prep - FAOS R11% w clful change. Set P2097 on both cycles.
+		WF81UR		VFORCE_COOL_DOWN	W960 FCD	WF82FQ		VFORCE_COOL_DOWN	W960 FCD	WF836Y		VFORCE_COOL_DOWN	W960 FCD	WF83U0		VFORCE_COOL_DOWN	W960 FCD	WF84FX		VFORCE_COOL_DOWN	W960 FCD
+		WF81UU		ROBOT_ATI_KEYCYCLE	W960 EXH RST	WF82FT		ROBOT_ATI_KEYCYCLE	W960 EXH RST	WF8370		ROBOT_ATI_KEYCYCLE	W960 EXH RST	WF83U5		ROBOT_ATI_KEYCYCLE	W960 EXH RST	WF84G0		ROBOT_ATI_KEYCYCLE	W960 EXH RST
+		WF81UZ	8049562	WLTC_CLASS_3B	W960_WLTC_Baseline	WF82FV	8049572	WLTC_CLASS_3B	W960 Demo AFIMN_R30_Cyl1 - No failed windows detected	WF8372	8049586	WLTC_CLASS_3B	W960 Demo FAOS R9% - Set code and emissions 	WF83U7	8049596	WLTC_CLASS_3B	W960 Demo - FAOS R9%, Passed emissions and set second pending on cycle	WF84G2	8049624	WLTC_CLASS_3B	W960 Demo - FAOS R11% w clful Set MIL but Failed C0
+		WF81V2		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF82FX		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF8374		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF83UA		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF84G5		ROBOT_ATI_KEYCYCLE	W960 KAM load
+		WF81V5	8049564	WLTC_3BX2	W960 Prep	WF82FZ	8049574	WLTC_3BX2	W960 Prep AFIMN_L30_Cyl1	WF8376		WLTC_3BX2	W960 Prep Did not run. Site was down for Soot	WF83UC	8049600	WLTC_3BX2	W960 Prep - FAOS L9%, TEST ABORTED DUE TO ROBOT	WF84G8	8049626	WLTC_3BX2	W960 Prep - FUELMN R25pct - operator forgot to run the previous test to reset obd and load kams. Not a valid test
+														WF84WW		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF84GA		VFORCE_COOL_DOWN	W960 FCD
+														WF84X0	8049604	WLTC_3BX2	W960 Prep - FAOS L9%, Set first pending on the end of 2nd WLTC	WF84GC		ROBOT_ATI_KEYCYCLE	W960 EXH RST
+		The preps and demos are voided due to be scheduled in the wrong order												WF83V3		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF84GJ	8049630	WLTC_CLASS_3B	W960 Demo - FUELMN R25pct - operator forgot to run the previous test to reset obd and load kams so prep was not valid. Not a valid test
+														WF83V5	8049606	WLTC_3BX2	W960 Prep - FAOS R9% with clful change - Went to 2nd pending by the end of WLTCx2	WF84GL		ROBOT_ATI_KEYCYCLE	W960 KAM load
+														WF84PW		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF84GN	8049632	WLTC_3BX2	W960 Prep -  FUELMN L25pct -Set 2nd pending for P0171
+														WF84PY	8049608	WLTC_3BX2	W960 Prep- FAOS L9% with clful change. Did not learn to clip but TEST ABORTED DUE TO ROBOT	WF84GQ		VFORCE_COOL_DOWN	W960 FCD
+														WF84Q0		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF84GV		ROBOT_ATI_KEYCYCLE	W960 EXH RST
+														WF84Q2	8049610	WLTC_3BX2	W960 Prep- FAOS L11% with clful change - did not reach clip, TEST ABORTED DUE TO ROBOT	WF84GY		WLTC_CLASS_3B	W960 Demo - Did not run Demo because operator could not run the exhaust model poke and ran the kam and obd reset which voids the prep
+																		WF84H1		ROBOT_ATI_KEYCYCLE	W960 KAM load
+																		WF84H3	8049636	WLTC_3BX2	W960 Prep - EGOMN P1 1200ms. I think due to the previous kam load, EGOmn did not run on the first WLTC and set the first pending on the second WLTC.
+																					
+		8/3/2026				8/4/2026				8/5/2026				8/6/2026							
+		Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor				
+		WF84H6	8049640	WLTC_CLASS_3B	W960 Demo - EGOMN P1 1200ms. Set the second pending but failed NOx at 95%.	WF84JK	8049664	WLTC_CLASS_3B	W960 Demo - Baseline	WF86M2	8049690	WLTC_CLASS_3B	W960 Demo - FAOS L11pct - P2096 set MIL	WF87FR		WLTC_3BX2	W960 Prep				
+		WF84H8		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF84JM		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF86M5		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF87FU		VFORCE_COOL_DOWN	W960 FCD				
+		WF84HA	8049642	WLTC_3BX2	W960 Prep - VCTMN 0deg INT but Purushoth did not undo the fuel shift so it set P0012, went to second pending and P0171, went to second pending. Not a valid test	WF84KZ	8049666	WLTC_3BX2	W960 Prep - EGOMN P1 1200ms - Set second pending P0130_7C by the second WLTC	WF86M9		ROBOT_OBD_CATMN_CP	W960 CATMN DCMS CP	WF87FZ		ROBOT_ATI_KEYCYCLE	W960 EXH RST				
+		WF84HH		VFORCE_COOL_DOWN	W960 FCD	WF84L1		VFORCE_COOL_DOWN	W960 FCD	WF86MG		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF87J9		WLTC_CLASS_3B	W960 Demo				
+		WF84HK		ROBOT_ATI_KEYCYCLE	W960 EXH RST	WF84L3		ROBOT_ATI_KEYCYCLE	W960 EXH RST	WF86MJ		ROBOT_OBD_CATMN_CP	W960 CATMN DCMS CP	WF87JD		ROBOT_ATI_KEYCYCLE	W960 KAM load				
+		WF84HM	8049645	WLTC_CLASS_3B	W960 Demo - VCTMN 0deg INT but set P0012 went to MIL and P0171 went to MIL. Not a valid test	WF84L9	8049670	WLTC_CLASS_3B	W960 Demo - EGOMN P1 1200ms - Set MIL P0130_7C but failed NOx	WF86MN		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF87JF		WLTC_3BX2	W960 Prep				
+		WF84HP		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF84LD		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF86N0		ROBOT_OBD_CATMN_PP	W960 CATMN DCMS PP	WF87K1		VFORCE_COOL_DOWN	W960 FCD				
+		WF84HR	8049647	WLTC_3BX2	W960 Prep - VCTMN 0deg EXH but Purushoth did not undo the fuel shift so it set P0014, went to second pending and P0171, went to second pending. Not a valid test	WF84LG	8049672	WLTC_3BX2	W960 Prep - VCTMN INT 0deg - Set second pending P0012_00 by end of second WTLC 	WF86N1		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF87K4		ROBOT_ATI_KEYCYCLE	W960 EXH RST				
+		WF84HU		VFORCE_COOL_DOWN	W960 FCD	WF84LL		VFORCE_COOL_DOWN	W960 FCD	WF86N4		ROBOT_OBD_CATMN_PP	W960 CATMN DCMS PP	WF87K7		WLTC_CLASS_3B	W960 Demo				
+		WF84HW		ROBOT_ATI_KEYCYCLE	W960 EXH RST	WF84LN		ROBOT_ATI_KEYCYCLE	W960 EXH RST	WF86N9		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF87KA		ROBOT_ATI_KEYCYCLE	W960 KAM load				
+		WF84HZ	8049653	WLTC_CLASS_3B	W960 Demo - VCTMN 0deg EXH but set P0014 went to MIL and P0171 went to MIL. Not a valid test	WF84LR	8049678	WLTC_CLASS_3B	W960 Demo - VCTMN INT 0deg - P0012 set MIL, good CS	WF86NB		ROBOT_OBD_CATMN_CP	W960 CATMN DCMS CP	WF87KF		WLTC_3BX2	W960 Prep				
+		WF84J1		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF84LU		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF86P7		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF87KJ		VFORCE_COOL_DOWN	W960 FCD				
+		WF84J3	8049655	WLTC_3BX2	W960 Prep - Data for VCTMN script but had the lean fuel shift but data is still valid	WF84LX	8049680	WLTC_3BX2	W960 Prep - VCTMN EXH 0deg - P0014 set second pending	WF86PE		ROBOT_OBD_CATMN_PP	W960 CATMN DCMS PP	WF87KM		ROBOT_ATI_KEYCYCLE	W960 EXH RST				
+		WF84J5		VFORCE_COOL_DOWN	W960 FCD	WF84M2		VFORCE_COOL_DOWN	W960 FCD					WF87KP		WLTC_CLASS_3B	W960 Demo				
+		WF84J7		ROBOT_ATI_KEYCYCLE	W960 EXH RST	WF84M5		ROBOT_ATI_KEYCYCLE	W960 EXH RST	Remaining tests did not run due to Water main break				WF87KU		ROBOT_ATI_KEYCYCLE	W960 KAM load				
+		WF85PQ	8049658	UNIFIED_X2	W960 prep - Data for VCTMN with a cold UNIFx2 but still had the lean fuel shift but data is still valid	WF84M7	8049683	WLTC_CLASS_3B	W960 Demo - VCTMN EXH 0deg - P0014 set MIL, good CS					WF87KY		WLTC_3BX2	W960 Prep				
+		WF85PT		ROBOT_ATI_KEYCYCLE	W960 KAM load	WF84M9		ROBOT_ATI_KEYCYCLE	W960 KAM load												
+		WF85PV		UNIFIED_X2	W960 prep - Data for VCTMN script but test did not run	WF84MB	8049685	WLTC_3BX2	W960 Prep - FAOS L11pct - P2096 set second pending												
+																					
+		8/10/2026				8/11/2026				8/12/2026				8/13/2026				8/14/2026			
+		Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+		8/17/2026				8/18/2026				8/19/2026				8/20/2026				8/21/2026			
+		Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+		8/24/2026				8/25/2026				8/26/2026				8/27/2026				8/28/2026			
+		Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+		8/31/2026				9/1/2026				9/2/2026				9/3/2026				9/4/2026			
+		Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+		9/7/2026				9/8/2026				9/9/2026				9/10/2026				9/11/2026			
+		Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+		9/14/2026				9/15/2026				9/16/2026				9/17/2026				9/18/2026			
+		Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+		Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+		Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor	Req No	Test ID	Cycle	Monitor
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
+																					
